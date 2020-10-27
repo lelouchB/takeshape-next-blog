@@ -1,4 +1,4 @@
-![](https://i.imgur.com/JF8NaVr.png)
+![](https://i.imgur.com/xPu2zCv.png)
 
 
 #### Demo blog made with TakeShape CMS and Next.js 
