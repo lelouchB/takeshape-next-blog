@@ -1,8 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![](https://i.imgur.com/JF8NaVr.png)
+
+
+#### Demo blog made with TakeShape CMS and Next.js 
+
+[Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Add Environment Variables
+
+Rename `.env.example` to `.env` and add your TakeShape project's id and API key to it.
+
+```
+TAKESHAPE_API_KEY=
+TAKESHAPE_PROJECT=
+```
 
 ## Getting Started
 
-First, run the development server:
+Install the dependencies.
+
+```bash
+npm install
+```
+
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,7 +33,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## Learn More
 
