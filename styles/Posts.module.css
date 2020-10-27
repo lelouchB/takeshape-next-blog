@@ -47,7 +47,8 @@
     font-size: 1.25rem;
 }
 
-.body img {
+.body img,
+.body iframe {
     max-width: 100%;
     height: auto;
 }
@@ -55,11 +56,6 @@
 .body figcaption {
     font-size: 1rem;
     font-weight: 100;
-}
-
-.body iframe {
-    max-width: 100%;
-    height: auto;
 }
 
 @media only screen and (max-width: 500px) {
