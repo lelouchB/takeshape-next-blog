@@ -1,0 +1,79 @@
+/* Posts.module.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono");
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.home {
+    background-color: #1abc9c;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    display: inline;
+    padding: 5px 7.5px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.home:hover,
+.home:active,
+.home:focus {
+    background-color: teal;
+}
+
+.header {
+    padding: 0.5rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: white;
+}
+
+.info {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Syne Mono', monospace;
+}
+
+.body {
+    margin: 10px 70px;
+    font-size: 1.25rem;
+}
+
+.body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.body figcaption {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.body iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        display: inline;
+    }
+    .home {
+        font-size: 1.2rem;
+    }
+    .body {
+        margin: 10px 30px;
+        font-size: 1rem;
+    }
+    .body figcaption {
+        font-size: 0.8rem;
+    }
+}

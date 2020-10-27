@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+.heading {
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 3.5rem;
+    font-family: Montserrat;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.heading:hover,
+.heading:focus,
+.heading:active {
+    color: #1abc9c;
+}
+
+@media only screen and (max-width: 500px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}

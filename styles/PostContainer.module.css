@@ -1,0 +1,97 @@
+/* styles/PostContainer.module.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono");
+.container {
+    margin: 1rem;
+    flex-basis: 55%;
+    padding: 1.25rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    background-color: white;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.container:hover,
+.container:focus,
+.container:active {
+    border-color: #1abc9c;
+    box-shadow: 2px 2px 1px #1abc9c;
+}
+
+.container p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.title {
+    color: teal;
+    text-decoration: none;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+.author {
+    color: inherit;
+    font-family: 'Syne Mono', monospace;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.deck {
+    margin: 5px 0;
+}
+
+.deck p {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    margin: 2px 0;
+}
+
+.read {
+    background-color: teal;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.read:hover,
+.read:focus,
+.read:active {
+    color: white;
+    background-color: #1abc9c;
+}
+
+@media only screen and (max-width: 500px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .deck p {
+        font-size: 1rem;
+    }
+    .author {
+        font-size: 0.8rem;
+    }
+    .container {
+        margin: 0.5rem 0.35rem;
+        padding: 1rem;
+    }
+}
