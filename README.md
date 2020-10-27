@@ -1,4 +1,4 @@
-[![](https://i.imgur.com/xPu2zCv.png)](takeshape-next-blog.vercel.app)
+[![homepage](https://i.imgur.com/xPu2zCv.png)](https://takeshape-next-blog.vercel.app)
 
 
 #### Demo blog made with TakeShape CMS and Next.js 
