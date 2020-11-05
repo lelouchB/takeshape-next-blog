@@ -1,0 +1,6 @@
+name: next-blog-demo
+description: A simple blog site.
+icon: pen-tool
+categories:
+  - examples
+  - quickstart
