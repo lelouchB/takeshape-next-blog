@@ -23,8 +23,8 @@
         "url": "git+https://github.com/lelouchB/takeshape-next-blog.git"
     },
     "keywords": [
-        "api",
-        "final space"
+        "takeshape",
+        "next.js"
     ],
     "bugs": {
         "url": "https://github.com/lelouchB/takeshape-next-blog/issues"
